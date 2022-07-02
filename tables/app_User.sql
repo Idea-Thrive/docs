@@ -16,5 +16,6 @@ create table User
     phone_number varchar(11)                   not null
 );
 
-INSERT INTO app.User (id, first_name, last_name, email, password, photo_url, company_id, personnel_id, gender, role, updated_at, created_at, phone_number) VALUES (1, 'Amir', 'Hallaji', 'amir.hallaji', '123', 'photo', 1, 14010306, 'male', 'employee', '2022-07-01', '2022-07-01', '09384158428');
-INSERT INTO app.User (id, first_name, last_name, email, password, photo_url, company_id, personnel_id, gender, role, updated_at, created_at, phone_number) VALUES (2, 'Amir', 'Hallaji', 'amir.nouri', '123', 'photo', 1, 14010306, 'male', 'employee', '2022-07-01', '2022-07-01', '09384158428');
+INSERT INTO app.User (id, first_name, last_name, email, password, photo_url, company_id, personnel_id, gender, role, updated_at, created_at, phone_number) VALUES (1, 'Amir', 'Hallaji', 'amir.hallaji@gmail.com', '123', 'photo', 1, 14010306, 'male', 'employer', '2022-07-01', '2022-07-01', '09384158428');
+INSERT INTO app.User (id, first_name, last_name, email, password, photo_url, company_id, personnel_id, gender, role, updated_at, created_at, phone_number) VALUES (2, 'Amir', 'Hallaji', 'amir.nouri@gmail.com', '123', 'photo', 1, 14010306, 'male', 'employee', '2022-07-01', '2022-07-01', '09384158428');
+INSERT INTO app.User (id, first_name, last_name, email, password, photo_url, company_id, personnel_id, gender, role, updated_at, created_at, phone_number) VALUES (3, 'Alireza', 'Shameli', 'shameli@gmail.com', '123', 'photo', 1, 14010307, 'male', 'employee', '2022-07-01', '2022-07-01', '09384158428');
