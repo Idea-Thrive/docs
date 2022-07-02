@@ -1,4 +1,4 @@
-create table Criteria_Comment
+create table CriteriaComment
 (
     id          int auto_increment
         primary key,
@@ -11,3 +11,4 @@ create table Criteria_Comment
         foreign key (criteria_id) references Criteria (id)
 );
 
+INSERT INTO app.CriteriaComment (id, criteria_id, comment_id, score) VALUES (2, 1, 2, 4);

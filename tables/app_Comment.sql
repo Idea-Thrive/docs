@@ -23,3 +23,4 @@ create index commenter_id
 create index company_id
     on Comment (company_id);
 
+INSERT INTO app.Comment (id, user_id, company_id, idea_id, score, description, created_at, updated_at) VALUES (2, 1, 1, 3, 1, 'comment1', '2022-07-02', '2022-07-02');

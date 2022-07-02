@@ -8,3 +8,4 @@ create table Criteria
         foreign key (category_id) references Category (id)
 );
 
+INSERT INTO app.Criteria (id, category_id, name) VALUES (1, 1, 'zibayi');
